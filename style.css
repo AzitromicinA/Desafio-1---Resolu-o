@@ -1,0 +1,152 @@
+*{
+    margin:0px;
+    font-family: "Inter";
+
+}
+
+#menusuperior{  
+    background-image: url(img/menufundo.svg);
+    color:#303030;
+    width: auto;
+    height: 475px;
+    gap: 0px;
+    opacity: 0px;
+    
+
+}
+
+.texto{
+    color: #FFFFFF; 
+    font-family: "Inter";  
+    
+}
+
+#textotitulo{
+    padding-top: 209px;
+    padding-left: 62px; 
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    text-align: left;
+   
+}
+
+#textoparagr{
+    padding-top: 20px;
+    padding-left: 62px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+
+       
+}
+
+#menuinformacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns:auto;
+}
+
+.textoinfo{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+#secaodescricao{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#imgdescricao{
+    margin: 50px 25px 50px 100px;
+}
+
+#titulodescricao{
+    color: black;
+    margin-top: 250px;
+    margin-left: 73px;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+
+}
+
+#textodescricao{
+    color: black;
+    margin-top: 15px;
+    margin-left: 73px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+#formulario{
+    background-image: url(img/menufundo.svg);
+    color:#303030;
+    width: auto;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+#tituloformulario{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px; 
+} 
+
+input:hover {
+    border: 2px solid transparent;
+    transition: all 0.1s ease;
+    background: linear-gradient(#121125, #121125) padding-box, /* Fundo sem o gradiente */
+                linear-gradient(45deg, blue, red) border-box; /* Gradiente na borda */
+    color: #EAECE5;            
+}
+
+button{
+    background: #C07212;
+    height: 40px;
+    width: 250px;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin: 15px;
+}
+
+button:hover{
+    background: #f55106ad;
+    color: white;
+    transform: translate(-7px);
+    box-shadow: 0px 15px 20px  #4c4c57;
+    transition-duration: 0.5s;
+}
+
